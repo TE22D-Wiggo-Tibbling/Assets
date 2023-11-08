@@ -33,6 +33,7 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // Debug.Log("hej");
 
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -62,6 +63,8 @@ public class playerMovement : MonoBehaviour
         {
             mayJump = true;
         }
+
+        Debug.Log(mayJump);
     }
 
 
